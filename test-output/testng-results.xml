@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17286" started-at="2018-04-25T07:32:23Z" finished-at="2018-04-25T07:32:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17286" started-at="2018-04-25T07:32:23Z" finished-at="2018-04-25T07:32:40Z">
+      <class name="com.companyname.projectname.testscripts.TC001_testLogin">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93]" name="setUP" is-config="true" duration-ms="9730" started-at="2018-04-25T07:32:23Z" finished-at="2018-04-25T07:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-04-25T07:32:33Z" finished-at="2018-04-25T07:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.companyname.projectname.testscripts.TC001_testLogin.testlogin() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testlogin()[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93]" name="testlogin" duration-ms="7479" started-at="2018-04-25T07:32:33Z" finished-at="2018-04-25T07:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-25T07:32:40Z" finished-at="2018-04-25T07:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testlogin status=SUCCESS method=TC001_testLogin.testlogin()[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93]" name="quitBrowser" is-config="true" duration-ms="31" started-at="2018-04-25T07:32:40Z" finished-at="2018-04-25T07:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.companyname.projectname.testscripts.TC001_testLogin@78b1cc93]" name="endTest" is-config="true" duration-ms="26" started-at="2018-04-25T07:32:40Z" finished-at="2018-04-25T07:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.companyname.projectname.testscripts.TC001_testLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

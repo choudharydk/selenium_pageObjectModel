@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suit2]">
+  <listeners>
+    <listener class-name="com.companyname.projectname.customelistener.Listner"/>
+  </listeners>
+  <test thread-count="5" name="Registration(failed)">
+    <classes>
+      <class name="com.companyname.projectname.testscripts.TC002_testRegistraion">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="testRegistraionWithInvalidData"/>
+          <include name="beforeMethod"/>
+          <include name="quitBrowser"/>
+          <include name="testRegistraionWithValidData"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.companyname.projectname.testscripts.TC002_testRegistraion -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+  <test thread-count="5" name="RegistrationTest(failed)">
+    <classes>
+      <class name="com.companyname.projectname.testscripts.Test1">
+        <methods>
+          <include name="testReport4"/>
+          <include name="afterMethod"/>
+          <include name="testReport2"/>
+          <include name="endTest"/>
+          <include name="testReport1"/>
+          <include name="beforeMethod"/>
+          <include name="testReport3"/>
+        </methods>
+      </class> <!-- com.companyname.projectname.testscripts.Test1 -->
+    </classes>
+  </test> <!-- RegistrationTest(failed) -->
+</suite> <!-- Failed suite [Regression Suit2] -->
